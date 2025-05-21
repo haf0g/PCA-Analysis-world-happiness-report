@@ -4,7 +4,7 @@ Ce projet applique une **Analyse en Composantes Principales (ACP)** et un **clus
 
 ---
 
-## 🎯 Objectifs
+##  Objectifs
 - Appliquer l'**ACP** pour explorer et visualiser les corrélations entre variables.
 - Utiliser l'interface **Factoshiny** pour une exploration interactive des résultats.
 - Appliquer le **clustering K-means** sur les composantes principales pour regrouper les pays.
@@ -12,7 +12,7 @@ Ce projet applique une **Analyse en Composantes Principales (ACP)** et un **clus
 
 ---
 
-## 🧩 Technologies et packages utilisés
+##  Technologies et packages utilisés
 - Langage : **R**
 - Packages :
   - FactoMineR
@@ -24,7 +24,7 @@ Ce projet applique une **Analyse en Composantes Principales (ACP)** et un **clus
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 | Fichier / Script | Description |
 |-------------------------------|-------------|
 | 2019.csv | Fichier de données du rapport |
@@ -34,7 +34,7 @@ Ce projet applique une **Analyse en Composantes Principales (ACP)** et un **clus
 
 ---
 
-## 🚀 Instructions pour exécuter le projet
+##  Instructions pour exécuter le projet
 1. **Cloner le dépôt :**
 ```bash
 git clone https://github.com/ton-utilisateur/nom-du-repo.git
@@ -65,7 +65,7 @@ Les graphiques suivants seront générés :
 * `03_projection_pays_PCA.png`
 * `04_clusters_pays.png`
 
-## 📊 Données utilisées
+##  Données utilisées
 Les données sont issues du **World Happiness Report 2019** et incluent les indicateurs suivants :
 * Score (Bonheur)
 * PIB par habitant (`GDP.per.capita`)
@@ -75,20 +75,19 @@ Les données sont issues du **World Happiness Report 2019** et incluent les indi
 * Générosité
 * Perception de la corruption
 
-## 🧠 Résultats attendus
+##  Résultats attendus
 * Identification des variables les plus influentes dans la variation du bonheur.
 * Visualisation des regroupements de pays sur la base des composantes principales.
 * Segmentation des pays en **3 clusters distincts** selon leurs scores socio-économiques.
 
-## 👨‍💻 Auteur
-* Hafid Garhoum
-* Étudiant à ENSA Berrechid
-* LinkedIn *(à personnaliser)*
+##  Auteurs
+* Hafid GARHOUM
+* Oussama BADDI
 
 ## 📜 Licence
 Ce projet est open-source sous licence MIT. Tu es libre de l'utiliser, le modifier et le partager.
 
-## 📌 Remarques
+##  Remarques
 * Le script est commenté pour une meilleure compréhension pédagogique.
 * Le code est compatible avec l'interface graphique RStudio.
 * Bien veiller à positionner le fichier `2019.csv` dans le bon répertoire de travail (`setwd()`).
