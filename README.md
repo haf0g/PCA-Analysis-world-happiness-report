@@ -37,7 +37,7 @@ Ce projet applique une **Analyse en Composantes Principales (ACP)** et un **clus
 ##  Instructions pour exécuter le projet
 1. **Cloner le dépôt :**
 ```bash
-git clone https://github.com/ton-utilisateur/nom-du-repo.git
+git clone https://github.com/haf0g/PCA-Analysis-world-happiness-report.git
 ```
 
 2. **Ouvrir le script** `script_acp_kmeans.R` dans RStudio.
